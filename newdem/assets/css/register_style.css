@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Klavika-BoldPlain';
+    src: url('../fonts/KlavikaBoldBold.otf');
+}
+
+@font-face {
+    font-family: 'Klavika-LightItalic';
+    src: url('../fonts/KlavikaLight-Italic.otf');
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+form {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1066ac;
+}
+
+.wrapper {
+    background-image: url("../images/backgrounds/bilueee");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100px;
+}
+
+.login_box {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 7%;
+    width: 35%;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    padding: 5px;
+    opacity: 0.98;
+    font-family: 'Klavika-LightItalic', sans-serif;
+    font-size: 100%;
+}
+
+.login_header {
+    width: 100%;
+    height: 90px;
+    color: #124380;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Klavika-LightItalic', sans-serif;
+    font-size: 125%;
+}
+
+.login_header h1 {
+    font-family: 'Klavika-BoldPlain', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #124380;
+    text-shadow: #082c44 0.5px 0.5px 0px;
+    font-size: 250%;
+}
+
+input[type="submit"] {
+    font-family: 'Klavika-BoldPlain', sans-serif;
+    background-color: #4f92e3;
+    border: 1px solid #4f92e3;
+    border-radius: 3px;
+    margin: 5px 0 10px 0;
+    padding: 5px 10px 5px 10px;
+    color: #124380;
+    text-shadow: #73B6E2 0.5px 0.5px 0px;
+    font-size: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: 1px solid #e5e5e5;
+    margin-top: 5px;
+    width: 70%;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+    border-color: #4f92e3;
+}
+
+#second {
+    display: none;
+}
